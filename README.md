@@ -34,6 +34,16 @@ Run the script with:
 
 python watch_and_transcribe.py
 
+## Automation Workflow
+
+After running `watch_and_transcribe.py`, a Power Automate flow runs every minute to:
+
+1. Read new call transcripts from an Excel file (`DATA.xlsx`) stored on OneDrive.  
+2. Post a message with call details (date, caller, transcript, name) to a Microsoft Teams group chat.  
+3. Update the Excel rows to mark them as sent, preventing duplicate messages.
+
+This flow automates sharing call transcriptions seamlessly to your team.
+
 Contributing
 
 Feel free to open issues or pull requests.
