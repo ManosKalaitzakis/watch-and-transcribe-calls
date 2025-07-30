@@ -30,16 +30,16 @@ The system uses FreeSWITCH to manage incoming calls. When a call is received:
    ```bash
    git clone https://github.com/ManosKalaitzakis/watch-and-transcribe-calls.git
 
-    Create and activate a virtual environment:
+2. Create and activate a virtual environment (Windows):
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
 
-python -m venv venv
-.\venv\Scripts\activate    # Windows
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-Install dependencies:
-
-    pip install -r requirements.txt
-
-##Usage
+## Usage
 
 Run the script with:
 
