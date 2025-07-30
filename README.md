@@ -45,6 +45,8 @@ After running `watch_and_transcribe.py`, a Power Automate flow runs every minute
 This flow automates sharing call transcriptions seamlessly to your team.
 
 ![Power Automate Flow](PowerAutomateFlow.png)
+
+
 Contributing
 
 Feel free to open issues or pull requests.
